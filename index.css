@@ -60,7 +60,7 @@ header li a {
 .wholecontainer {
     height: 100vh;
     width: 100vw;
-    background: rgba(62, 131, 127, 0.486);
+    background: rgb(255, 255, 255);
     border: 5px solid black;
     display: flex;
     flex-direction: row;
@@ -72,7 +72,7 @@ header li a {
     height: 80%;
     width: 30%;
     margin: 15px;
-    background: rgb(103, 139, 103);
+    background: rgb(255, 255, 255);
     position: absolute;
 }
 
@@ -148,7 +148,7 @@ header li a {
 .topbar {
     height: 80px;
     max-width: 100%;
-    background: blue;
+    background: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -156,7 +156,8 @@ header li a {
     position: relative;
     left: 400px;
     padding-top: 20px;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #d2d5da;
+    color: #252a2e
 }
 
 .overview {
@@ -181,28 +182,64 @@ header li a {
 .poprepo {
     margin: 50px;
     position: relative;
-    right: 265px;
+    right: 220px;
     top: 40px;
+    color: #252a2e
 }
 
 .customize {
    margin: 30px;
    position: relative;
-   right: 50px;
+   left: 200px;
    top: 62px;
+   color: #252a2e
 }
 
 .introbox {
     height: 100px;
-    width: 300px;
-    border: 1px solid rgba(27,31,35,.2);
+    width: 600px;
+    border: 1px solid #d2d5da;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
     position: relative;
-    right: 700px;
-    top: 120px;
+    right: 480px;
+    top: 130px;
     padding: 15px;
 }
 
+
+.circle {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: absolute;
+}
+.left {
+    left: 5px;
+    bottom: 0;
+    margin-bottom: 20px;
+    background: red;
+}
+
+.my-first-pro {
+    height: 100px;
+    width: 600px;
+    border: 1px solid #d2d5da;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 300px;
+    top: 130px;
+    padding: 15px;
+}
+
+.bottom {
+    left: 5px;
+    bottom: 0;
+    margin-bottom: 20px;
+    background: yellow;
+}
