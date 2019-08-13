@@ -61,7 +61,6 @@ header li a {
     height: 100vh;
     width: 100vw;
     background: rgb(255, 255, 255);
-    border: 5px solid black;
     display: flex;
     flex-direction: row;
     align-items: flex-start; 
